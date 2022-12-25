@@ -97,7 +97,7 @@ print(dict1)
 bin_dict={}  #again using dictionary for associating
 
 key=0
-for i in range(0,255):
+for i in range(0,256):
   if 32*key<=i and i<32*(key+1):
     bin_dict[i]=key
   else:
